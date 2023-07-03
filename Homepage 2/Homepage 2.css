@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+body{
+    background-image: url(17580.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.navbar{
+     height: 125px;
+     width: 100%;
+     background-color: rgb(231, 231, 231);
+     background-position: center;
+     box-shadow:0px 5px 1px rgba(126,126,126,0.5);
+}    
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 7%;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    opacity: 0.8;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(16,16,16);
+    font-family: Lustia;
+    font-size: 20px;
+    font-weight: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: rgb(197, 197, 197);
+    transition: 0.15s;
+}
+.btn{
+    border: none;
+    background-color: #80838A;
+    padding: 8px 7px;
+    border-radius: 5px;
+}
+button:hover{
+    box-shadow: 3px 5px 10px rgba(126,126,126,0.5);
+    cursor: pointer;
+}
+a button{
+    color: #E0E0E0;
+    text-decoration: none;
+    font-family: raleway;
+    font-size: 18;
+}
+.hero{
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    color: black;
+    font-family: Merriweather;
+    font-size: 48px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+
+}
+.conteiner{
+    display: flex;
+}
+.card1{
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 5px rgba(16,16,16,0.7);
+    margin: 50px;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 3px;
+}
+.intro{
+    height: 50px;
+    width: 200px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 50px;
+    background: rgb(27, 27, 27, 0.5);
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+
+}
+h2{
+    font-size: 20Px;
+    margin: 10px;
+}
+p{
+    font-size: 10px;
+    margin: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+.card1:hover{
+    cursor: pointer;
+}
+.card1:hover .intro{
+    height: 120px;
+    bottom: 120px;
+
+}
+.card1:hover p{
+    visibility: visible;
+    opacity: 1;
+}
