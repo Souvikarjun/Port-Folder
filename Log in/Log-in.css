@@ -3,24 +3,16 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-
 }
 body{
     background-image: url(17580.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
-}
-.navbar{
-     height: 125px;
-     width: 100%;
-     background-color: rgb(231, 231, 231);
-     background-position: center;
-     box-shadow:0px 5px 1px rgba(126,126,126,0.5);
-}    
+}  
 .b1{
     position: absolute;
-    top: 20%;
+    top: 100px;
     left: 35%;
     background: transparent;
     font-family: Lustia;
@@ -29,10 +21,21 @@ body{
 
 }
 .b2{
-    background-color: #80838A;
+    height: 550px;
+    width: 450px;
+    background-color: #E0E0E0;
+    box-shadow: 3px 5px 10px rgba(126,126,126,0.5);
     display: inline-block;
-    text-align: center;
     align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.i1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo{
     height: 100px;
@@ -40,22 +43,46 @@ body{
     background: transparent;
     opacity: 0.8;
 }
-nav ul li a:hover {
-    color: rgb(197, 197, 197);
-    transition: 0.15s;
+.Log-in{
+    padding-left: 50px;
+    color: rgb(43, 43, 43);
+    font-family: raleway;
+    font-weight: lighter;
+    font-size: 32px;
+    align-items: left;
+}
+.email{
+    display: flex;
+    padding-left: 50px;
+}
+.t1{
+    padding-left: 50px;
+}
+.pass{
+    padding-left: 50px;
+}
+.t2{
+    padding-left: 50px;
+}
+.rem-for{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butt{
+    padding-left: 50px;
 }
 .btn{
     border: none;
     background-color: #80838A;
     padding: 8px 7px;
-    border-radius: 5px;
-}
-.btn2{
-    border: none;
-    background-color: #80838A;
-    width: 200px;
-    padding-top: 9px;
-    padding-bottom: 9px;
     border-radius: 5px;
 }
 button:hover{
@@ -68,47 +95,43 @@ a button{
     font-family: raleway;
     font-size: 18;
 }
-.hero{
-    text-align: center;
-    padding-top: 100px;
-}
-.h1{
-    color: black;
-    font-family: Merriweather;
-    font-size: 48px;
-}
-.h2{
-    color: rgb(43, 43, 43);
-    font-family: raleway;
-    font-size: 30px;
-    padding-top: 50px;
-    font-weight: lighter;
-}
-.b{
-    text-align: center;
-    padding-top: 100px;
-}
-.b1{
-    padding-bottom: 40px;
-}
-.b2{
-    padding-right: 30px;
+.or{
+    font-size: 10px;
+    text-decoration: dashed;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .image{
     background: transparent;
 }
 .fb{
-    height: 100px;
-    width: 100px;
+    height: 20px;
+    width: 20px;
     border-radius: 20px;
 }
 .go{
-    height: 100px;
-    width: 100px;
+    height: 20px;
+    width: 20px;
     border-radius: 20px;
+    margin-left: 20px;
 }
 .li{
-    height: 100px;
-    width: 100px;
+    height: 20px;
+    width: 20px;
     border-radius: 20px;
+    margin-left: 20px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.dont_have{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
