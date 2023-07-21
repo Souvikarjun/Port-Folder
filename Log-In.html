@@ -13,15 +13,19 @@
             <h1 class="Log-in">LOG IN</h1>
             <p class="email">Email</p>
             <div class="t1">
-                <input type="text" name="s">
+                <input class="text" type="email" name="s">
             </div>
             <p class="pass">Password</p>
             <div class="t2">
-                <input type="text"  name="p">
+                <input class="text" type="password" name="p" id="input">
+                <span class="eye" onclick="func()">    
+                    <input id="hide2" class="eye2" type="image" src="Log in/hide.png">
+                    <input id="hide1" class="eye1" type="image" src="Log in/view.png">
+                </span>
             </div>
             <div class="rem-for">
                 <div class="c1">
-                    <input type="checkbox" checked="checked">
+                    <input type="checkbox">
                     <p class="rem">Remember me</p>
                 </div>
                 <a href="#" class="forget">Forgot Password</a>
@@ -37,8 +41,29 @@
                 <input class="go" type="image" src="./Log in/G icon.png">
                 <input class="li" type="image" src="./Log in/LI icon.png">
             </div>
-            <p class="dont_have">Don't have an acount?<a href="#" class="create new">create new account</a></p>
+            <div class="dont">
+                <p class="dont_have">Don't have an acount?</p>
+                <a href="#" class="create_new">create new account</a>
+            </div>
         </div>
     </div> 
 </Body>
+    <script>
+        function func(){
+            var x = document.getElementById("input")
+            var y = document.getElementById("hide1")
+            var z = document.getElementById("hide2")
+
+            if(x.type === "password"){
+                x.type = "text";
+                y.style.display = "block";
+                z.style.display = "none";
+            }
+            else{
+                x.type = "password";
+                y.style.display = "none";
+                z.style.display = "block"
+            }
+        }
+    </script>
 </Html>
