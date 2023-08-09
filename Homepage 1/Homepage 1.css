@@ -30,7 +30,7 @@ nav{
     height: 100px;
     width: 100px;
     background: transparent;
-    opacity: 0.8;
+    opacity: 1;
 }
 nav ul{
     text-align: center;
@@ -53,20 +53,20 @@ nav ul li a:hover {
 }
 .btn{
     border: none;
-    background-color: #80838A;
-    padding: 8px 7px;
+    background-color: #737375;
+    padding: 10px 10px;
     border-radius: 5px;
 }
 .btn2{
     border: none;
-    background-color: #80838A;
+    background-color: #737375;
     width: 200px;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 5px;
 }
 button:hover{
-    box-shadow: 3px 5px 10px rgba(126,126,126,0.5);
+    box-shadow: 3px 5px 10px rgba(48, 47, 47, 0.5);
     cursor: pointer;
 }
 a button{
