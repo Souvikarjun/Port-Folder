@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(17580.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.b1{
+    position: absolute;
+    top: 100px; 
+    left: 25%;
+    background: transparent;
+    font-family: Lustia;
+    font-size: 20px;
+    font-weight: 10px;
+}
+.b2{
+    height: 745px;
+    width: 950px;
+    background-color: #E0E0E0;
+    box-shadow: 3px 5px 10px rgba(126,126,126,0.5);
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.i1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    background: transparent;
+}
+.Log-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(43, 43, 43);
+    font-family: raleway;
+    font-weight: 100;
+    font-size: 32px;
+}
+.list{
+    height: 300px;
+    width: 450px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+.email{
+    margin-top: 35PX;
+    font-family: Times New Roman;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 50px;
+}
+.t1{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    outline: 0px;
+    border: 0px;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 100;
+    background-color: #ffffff;
+    box-shadow: 3px 5px 10px rgba(126,126,126,0.5);
+}
+.text{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    outline: 0px;
+    border: 0px;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 100;
+    background: transparent;
+}
+.pass{
+    margin-top: 35px;
+    font-family: Times New Roman;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 50px;
+}
+.t2{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    outline: 0px;
+    border: 0px;
+    font-size: 20px;
+    font-family: raleway;
+    font-weight: 100;
+    background-color: #ffffff;
+    box-shadow: 3px 5px 10px rgba(126,126,126,0.5);
+}
+.eye{
+    margin-top: 10px;
+    position: absolute;
+}
+.eye1{
+    height: 20px;
+    width: 20px;
+    display: none;
+}
+.eye2{
+    height: 20px;
+    width: 20px;
+}
+.rem-for{
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16px;
+}
+.rem{
+    margin-top: 10px;
+}
+a{
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #333AD7;
+    transition: 0.2s;
+}
+a:hover{
+    color: rgb(82, 82, 136);
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.check{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.c1{
+    display: flex;
+}
+.butt{
+    padding-left: 50px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 25%;
+    border: none;
+    background-color: #737375;
+    padding: 8px 7px;
+    border-radius: 5px;
+    width: 350px;
+    height: 37px;
+}
+button:hover{
+    box-shadow: 3px 5px 10px rgba(48, 47, 47, 0.5);
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:active{
+    transform: scale(0.99);
+}
+button{
+    color: #E0E0E0;
+    text-decoration: none;
+    font-family: raleway;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.or{
+    font-size: 16px;
+    text-decoration: dashed;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.with{
+    font-size: 16px;
+    text-decoration: dashed;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    background: transparent;
+}
+.fb{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.fb:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.go{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+.go:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.li{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+.li:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.dont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dont_have{
+    font-family: raleway;
+    font-size: 20px;
+}
+.create_new{
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 4px;
+    transition: 0.2s;
+}
+.create_new:hover{
+    color: rgb(144, 144, 151);
+    text-decoration: underline;
+    transition: 0.2s;
+}

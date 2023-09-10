@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<Html>    
+    <link rel="stylesheet" type="text/css" href="./Sign up/Sign-up.css">
+<Head>  
+    <title>SIGN UP</title> 
+</Head>  
+<Body>
+    <div class="b1">
+        <div class="b2">    
+            <div class="i1">
+                <input class="logo" type="image" src="Logo-2.png">
+            </div>
+            <h1 class="Log-in">SIGN UP</h1>
+            <div class="list">
+                <p class="email">First Name</p>
+                <div class="t1">
+                    <input class="text" type="name" name="s">
+                </div>
+                <p class="pass">Email</p>
+                <div class="t2">
+                    <input class="text" type="email" name="p">
+                </div>
+                <p class="email">Password</p>
+                <div class="t1">
+                    <input class="text" type="password" name="s" id="input2">
+                    <span class="eye" onclick="func2()">    
+                        <input id="hide2" class="eye2" type="image" src="Log in/hide.png">
+                        <input id="hide1" class="eye1" type="image" src="Log in/view.png">
+                    </span>
+                </div>
+            </div>
+            <div class="list">
+                <p class="pass">Last Name</p>
+                <div class="t2">
+                    <input class="text" type="name" name="p">
+                </div>           
+                <p class="email">User Name</p>
+                <div class="t1">
+                    <input class="text" type="name" name="s">
+                </div>
+                <p class="pass">Confirm Password</p>
+                <div class="t2">
+                    <input class="text" type="password" name="p" id="input">
+                    <span class="eye" onclick="func()">    
+                        <input id="hide2" class="eye2" type="image" src="Log in/hide.png">
+                        <input id="hide1" class="eye1" type="image" src="Log in/view.png">
+                    </span>
+                </div>
+            </div>
+            <div class="rem-for">
+                <div class="c1">
+                    <input class="check" type="checkbox">
+                    <p class="rem">I accept the&nbsp<a href="#" class="p1">Terms</a>&nbspand<a href="#" class="p1">&nbspPrivacy Policy</a>.</p>
+                </div>
+                <div class="c1">
+                    <input class="check" type="checkbox">
+                    <p class="rem">I want to recieve update emails of any new poducts</p>
+                </div>
+            </div>
+            <div class="butt">
+                <button herf="#" class="btn">SIGN UP</button>
+            </div>
+            <div>
+            <p class="or">OR</p>
+            <P class="with">SIGN UP WITH</P>
+            </div>
+            <div class="image">
+                <input class="fb" type="image" src="./Log in/F icon.png">
+                <input class="go" type="image" src="./Log in/G icon.png">
+                <input class="li" type="image" src="./Log in/LI icon.png">
+            </div>
+        </div>
+    </div> 
+</Body>
+    <script>
+        function func(){
+            var x = document.getElementById("input")
+            var y = document.getElementById("hide1")
+            var z = document.getElementById("hide2")
+
+            if(x.type === "password"){
+                x.type = "text";
+                y.style.display = "block";
+                z.style.display = "none";
+            }
+            else{
+                x.type = "password";
+                y.style.display = "none";
+                z.style.display = "block"
+            }
+        }
+        function func2(){
+            var x = document.getElementById("input2")
+            var y = document.getElementById("hide1")
+            var z = document.getElementById("hide2")
+
+            if(x.type === "password"){
+                x.type = "text";
+                y.style.display = "block";
+                z.style.display = "none";
+            }
+            else{
+                x.type = "password";
+                y.style.display = "none";
+                z.style.display = "block"
+            }
+        }
+    </script>
+</Html> 
